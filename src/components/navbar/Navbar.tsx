@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="md:container md:mx-auto px-4 flex items-center justify-between   gap-2 ">
         <Link href={"/"}>
           {" "}
-          <Image src={aliff} alt="Logo" width={112} height={32} />
+          <Image src={aliff} alt="Logo" className='width={112} height={42}' />
         </Link>
         <button className="py-2  ml-1 mr-1 duration-200 px-3 h-[43px] lg:w-52 rounded-lg flex  items-center justify-center gap-2 relative font-medium bg-yellow-300">
           <div className=" bg-black w-6 h-1 block -mt-4">
@@ -49,7 +49,6 @@ const Navbar = () => {
         <button className="border-yellow-300 border-2 w-[63px] h-[42px] rounded-lg  text-sm hover:bg-yellow-100 ease-in duration-300">
           Kirish
         </button>
-        {/* <ThemeSwitch /> */}
       </div>
     </div>
   )
